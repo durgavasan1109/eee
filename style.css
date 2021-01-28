@@ -1,0 +1,144 @@
+h1{
+    color:blue;
+}
+p{
+    padding-right:10px ;
+    float: right;
+    line-height:20px ;
+    width:460px;
+    color:darkblue;
+    font-family:unset;
+}
+.responsive{
+    border:2px solid black;
+  margin: 0%;
+   display:inline;
+   float: left;
+   width:300px;
+ 
+}
+#box1{
+    margin: 0%;
+   display:inline;
+   float: left;
+   background-color:  darkgray;
+   height:125px ;
+  width:460px ;
+  color: darkred;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+    #box2{
+        margin: 0%;
+   display:inline;
+   float: right;
+   color: lawngreen;
+    }
+    #box3{
+        margin: 0%;
+   display:inline;
+   float: left;
+   background-color: #e4ebeb;
+   font-size: 30px;
+   font-family:initial;
+   height:125px;
+  width:460px ;
+  color:yellowgreen
+
+    }
+    #box4{
+        margin: 0%;
+   display:inline;
+   float: left;
+   background-color:#e4ebeb;
+   height:650px;
+   margin-left:15px;
+    }
+    h5{
+        background-color: rgb(22, 238, 76);
+        border:2px solid green;
+    }
+    button{
+        background-color:rgb(22, 238, 76);
+        height:30px;
+        border:2px solid green;
+        
+    }
+    button a{
+        color:black;
+        font-size: 20px;
+        padding: 20px;
+    }
+body{
+    height:1000px;
+    width:800px;
+    margin-left:290px;
+    background-color:white;
+}
+html{
+    height:50%;
+    width:50%;
+    background-color: cornsilk;
+   }
+   ul{
+       text-decoration:none ;
+       background-color: #fd6565;
+       list-style-type:none;
+   }
+   li{
+       float:left;
+   }
+@media screen and (max-width:900px)
+{
+    body{
+        width:100%;
+        text-align: center;
+    }
+    .responsive{
+       width:100%;
+    }
+    #box4{
+   float:none;
+   width:900px;
+   font-size: auto;
+    }
+    .box{
+        float:none;
+        width:100%;
+        height:40px ;
+    }
+    h1,h5{
+        width:100%;
+    }
+    p{
+        width:100%;
+    }
+    #box3{
+        width:100%;
+        font-size:15px ;
+    }
+    #box1{
+        width:100%;
+        
+    }
+   
+    #box4 figure{
+font-size:10px;
+    }
+    button a{
+        float:none;
+        width:100%;
+        font-size: 10px;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+   
